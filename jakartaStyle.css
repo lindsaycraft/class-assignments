@@ -1,1 +1,36 @@
+/* center h1 element and text, adds width, padding and border */
+h1 {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid #985898;
+}
 
+/* indent paragraphs for eat-drink and vist */
+p.eat-drink, p.visit {
+    text-indent: 10%;
+}
+
+/* change color for visit class */
+.visit {
+    color: #0c4b80;
+}
+
+/* 3rd list term blue and uppercase */
+.restaurants li:nth-child(3) {
+    text-transform: uppercase;
+    color: blue;
+}
+
+/* unvisited link green */
+a:link {color: green}
+
+/* visited link blue */
+a:visited {color: blue}
+
+/* hover link black */
+a:hover {background-color: black}
+
+/* active link red */
+a:active {color: red}
